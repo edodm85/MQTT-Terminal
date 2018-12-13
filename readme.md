@@ -21,11 +21,43 @@ You can download from Google Play here:
 
 ## Example
 
-You can found a example [HERE](https://os.mbed.com/users/edodm85/notebook/mqtt-project-send-temperature-value-over-mqtt-prot/)
+You can found this example "Send temperature value over MQTT protocol with mbed" [HERE](https://os.mbed.com/users/edodm85/notebook/mqtt-project-send-temperature-value-over-mqtt-prot/)
 
 
 
 ## How does it work?
 
-1. Open the Application MQTT Terminal.
+1. Open the "MQTT Terminal" Application and create a new connection with the Broker informations.
 
+
+
+2. Open the new connection and insert a new topic (wildcards are accepted)
+
+
+
+3. Now you can receive/send text or images
+
+
+
+
+## Send image from other clients
+
+For receive images with my App you need to follow these two steps:
+
+1. First, send this string: image_ + (bytes image)
+
+2. Second send the image bytes
+
+
+Example:
+
+```
+ByteArrayOutputStream stream = new ByteArrayOutputStream();
+Bitmap image = ...
+image.compress(Bitmap.CompressFormat.PNG, 80, stream);
+byte[] byteArray = stream.toByteArray();
+int len = byteArray.length;
+
+oServiceConnection.publish(topic, "image_" + len);
+oServiceConnection.publish(topic, byteArray);
+```
