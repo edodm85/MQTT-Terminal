@@ -29,14 +29,25 @@ You can found this example "Send temperature value over MQTT protocol with mbed"
 
 1. Open the "MQTT Terminal" Application and create a new connection with the Broker informations.
 
-
+<p align="left">
+<img src="https://github.com/edodm85/MQTT-Terminal/blob/master/Resources/screen1.png" width="300">
+<img src="https://github.com/edodm85/MQTT-Terminal/blob/master/Resources/screen2.png" width="300">
+</p>
 
 2. Open the new connection and insert a new topic (wildcards are accepted)
 
+<p align="left">
+<img src="https://github.com/edodm85/MQTT-Terminal/blob/master/Resources/screen3.png" width="300">
+<img src="https://github.com/edodm85/MQTT-Terminal/blob/master/Resources/screen4.png" width="300">
+</p>
 
 
 3. Now you can receive/send text or images
 
+<p align="left">
+<img src="https://github.com/edodm85/MQTT-Terminal/blob/master/Resources/screen5.png" width="300">
+<img src="https://github.com/edodm85/MQTT-Terminal/blob/master/Resources/screen6.png" width="300">
+</p>
 
 
 
