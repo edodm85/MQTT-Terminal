@@ -72,3 +72,10 @@ int len = byteArray.length;
 oServiceConnection.publish(topic, "image_" + len);
 oServiceConnection.publish(topic, byteArray);
 ```
+
+
+## License
+
+> Copyright (C) 2018 edodm85.  
+> Licensed under the MIT license.  
+> (See the [LICENSE](https://github.com/edodm85/MQTT-Terminal/blob/master/LICENSE) file for the whole license text.)
