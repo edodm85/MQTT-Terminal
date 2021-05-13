@@ -13,9 +13,10 @@ You can download from Google Play here:
 
 ## Features
 
+- MQTT 5.0 and 3.1.1 compatible
 - Multiple connections
 - Send/Receive text or images
-- Username and password (optional)
+- SSL supported
 - Subscribe to topic (wildcards supported)
 - Enable/Disable notifications for the topic
 
