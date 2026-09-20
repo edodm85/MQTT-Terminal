@@ -1,6 +1,6 @@
 # MQTT Terminal
 
-<img src="https://github.com/edodm85/MQTT-Terminal/blob/master/Resources/img1.png" width="150">
+<img src="https://github.com/edodm85/MQTT-Terminal/blob/master/Resources/img1_1.png" width="120">
 
 ## What is MQTT Terminal?
 
